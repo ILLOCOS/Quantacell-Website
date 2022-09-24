@@ -1,0 +1,43 @@
+import '../../css/seemore1.css';
+// import Container from 'react-bootstrap/Container';
+// import Row from 'react-bootstrap/Row';
+// import Col from 'react-bootstrap/Col';
+import Clientelle from './tabs2'; 
+import React from 'react';
+import bv from '../components/Images/bv2.mp4';
+import {ClientInfo} from './seemorepages2;'
+function Client() {
+  return (
+    <>
+  <header>
+    {/* <div className="hero2">
+    <video loop muted autoPlay playsInline className='bv'>
+        <source src={bv} type="video/mp4" />
+      </video>
+    </div> */}
+    
+    {/* <div className='cont'>
+    <Container>
+    <Row>
+        <Col md={12}>
+          <h1>WHY WORK WITH US?  </h1>
+          <h2>You can have the best people. Right here. Right now!</h2>
+        </Col>
+      </Row>
+      </Container>
+    </div> */}
+    
+    </header>
+    
+     <main>
+    {/* <div className='tabs'>
+          <Clientelle />
+          </div> */}
+          {/* <ClientInfo /> */}
+          <h1>Amen</h1>
+    </main>
+    </>
+  );
+}
+
+export default Client;
