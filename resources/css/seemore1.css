@@ -383,7 +383,7 @@
         font-size: 14px;
     }
     .bv {
-        margin-top: -100px;
+        margin-top: 0px;
     }
     .tabs {
         margin-top: -200px;
@@ -405,9 +405,6 @@
     .bv {
         margin-top: -10px;
     }
-    .tabs {
-        margin-top: -100px;
-    }
     #tabbtn {
        margin-left: 50px !important;
     }
@@ -425,9 +422,9 @@
     .cont h1, .contt h1 , .cont2 h1 , .num , .miniTitle {
         font-size: 20px !important;
     }
-    .bv {
+    /* .bv {
         margin-top: 40px;
-    }
+    } */
     .tabs {
         margin-top: -60px;
     }
@@ -441,8 +438,7 @@
         padding: 10px
     }
     .contt , .cont2, .cont3 {
-        width:80vw;
-        margin-left: -50px;
+        width:100vw;
       }
   
   }
@@ -459,7 +455,7 @@
         font-size: 20px !important;
     }
     .bv {
-        margin-top: 40px;
+        margin-top: 0px;
     }
     .tabs {
         margin-top: -40px;
@@ -477,8 +473,7 @@
         padding: 7px
     }
   .contt , .cont2, .cont3 {
-    width:80vw;
-    margin-left: -50px;
+    width:100vw;
   }
   }
   
