@@ -13,7 +13,7 @@
     justify-content: center; */
     z-index: -2;
     background-color:#030332;
-    background:url(../Images/qq.jpg);
+    background:url(../js/components/Images/qq.jpg);
      background-size: cover; 
      background-repeat: no-repeat;
 }  
@@ -582,6 +582,7 @@ width: 100%;
 #tabbtn:hover , #btn2:hover {
     text-transform: uppercase;
     background-color: #285977ce;
+    border-color: #285977ce ;
     border-radius: 5px;
     /* padding: 5px; */
     font-weight: 500;
