@@ -32,11 +32,14 @@
             text-align: left;
             background-color: #f5f8fa;
         }
+        #contiz{
+            padding-top: 5rem;
+        }
         .navbar-laravel
         {
             position: absolute;
             box-shadow: 0 2px 4px rgba(0,0,0,.04);
-            margin-top: 5rem;
+            margin-top: 0rem;
         }
         .navbar-brand , .nav-link, .my-form, .login-form
         {
@@ -64,13 +67,14 @@
             margin-left: 0;
             margin-right: 0;
         }
+        
     </style>
         @viteReactRefresh
         @vite([ 'resources/js/talent.jsx'])
 </head>
 <body>
     <div id="navi"></div>
-<nav class="navbar navbar-expand-lg navbar-light navbar-laravel">
+{{-- <nav class="navbar navbar-expand-lg navbar-light navbar-laravel">
     <div class="container">
         <a class="navbar-brand" href="#">Laravel</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -96,7 +100,7 @@
         </div>
     </div>
 </nav>
-  
+   --}}
 @yield('content')
 <div id = "footer"></div>  
 </body>
