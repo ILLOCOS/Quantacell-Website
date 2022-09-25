@@ -11,7 +11,7 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css"
         rel="stylesheet"
       />
-      
+      <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet" />
       <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
 
       <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
