@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Laravel</title>
+    <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link
     href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css"

@@ -42,14 +42,46 @@
                           </div>
   
                           <div class="form-group row">
-                              <div class="col-md-6 offset-md-4">
-                                  <div class="checkbox">
-                                      <label>
-                                          <input type="checkbox" name="remember"> Remember Me
-                                      </label>
-                                  </div>
-                              </div>
+
+                              <div class="col-md-2  offset-md-4">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="remember"> Admin
+                                    </label>
+                                </div>
+                                
+                            </div>
+                            <div class="col-md-2">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="remember"> Talent
+                                    </label>
+                                </div>
+                                
+                            </div>
+                            <div class="col-md-2">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="remember"> Client
+                                    </label>
+                                </div>
+                                
+                            </div>
                           </div>
+
+                          
+                          <div class="form-group row">
+                            <div class="col-md-6  offset-md-4">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="remember"> Remember Me
+                                    </label>
+                                </div>
+                                
+                            </div>
+                              
+                          </div>
+                        </div>
   
                           <div class="col-md-6 offset-md-4">
                               <button type="submit" class="btn btn-primary">
