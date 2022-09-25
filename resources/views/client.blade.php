@@ -4,7 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <link rel="icon" href="./favicon.png" type="image/png" />
+        <title>QuantaCell</title>
 
         <!-- Fonts -->
         <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet" />
