@@ -63,6 +63,7 @@ class AuthController extends Controller
             'name' => 'required',
             'email' => 'required|email|unique:users',
             'password' => 'required|min:6',
+            'user' => 'required'
         ]);
            
         $data = $request->all();
@@ -95,7 +96,8 @@ class AuthController extends Controller
       return User::create([
         'name' => $data['name'],
         'email' => $data['email'],
-        'password' => Hash::make($data['password'])
+        'password' => Hash::make($data['password']),
+        'user' => $data['user']
       ]);
     }
     

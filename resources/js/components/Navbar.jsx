@@ -95,6 +95,7 @@ function Navbarr() {
       {/* <Button variant="light" className='joinBtn'>Join</Button> */}
 
     <>
+    
       <Button  variant="light" className='signInBtn' id='signinbtn'>
           <i class="fa fa-user"></i> <a href = "/login"> Log in </a>
       </Button>
