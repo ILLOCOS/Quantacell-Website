@@ -392,14 +392,15 @@
   
 
   @media (max-width: 720px) { 
-    * , .stackk, .satckk , #tabbtn , .stack-p , .t-num  {
-        font-size: 14px;
+    * , .stackk, .satckk , #tabbtn , .stack-p , .t-num , .abt1-h h2 , 
+    .abtp {
+        font-size: 14px !important;
     }
     .cont h2, .contt h2 , .cont2 h2 , .s-head  , 
-    .tabs .btn1 .nav-link , .sectionTitle , #tabbtn {
+    .tabs .btn1 .nav-link , .sectionTitle , #tabbtn , .abth {
         font-size: 15px !important;
     }
-    .cont h1, .contt h1 , .cont2 h1 , .num , .miniTitle {
+    .cont h1, .contt h1 , .cont2 h1 , .num , .miniTitle  , .abt1-h h1, .abt2-h {
         font-size: 20px !important;
     }
     .bv {
@@ -412,14 +413,15 @@
   
 
   @media (max-width: 425px) { 
-    * , .stackk, .satckk , #tabbtn , .stack-p , .t-num  {
-        font-size: 13px;
+    * , .stackk, .satckk , #tabbtn , .stack-p , .t-num  , .abt1-h h2 , 
+    .abtp {
+        font-size: 13px !important;
     }
     .cont h2, .contt h2 , .cont2 h2 , .s-head  , 
-    .tabs .btn1 .nav-link , .sectionTitle , #tabbtn {
+    .tabs .btn1 .nav-link , .sectionTitle , #tabbtn , .abth {
         font-size: 15px !important;
     }
-    .cont h1, .contt h1 , .cont2 h1 , .num , .miniTitle {
+    .cont h1, .contt h1 , .cont2 h1 , .num , .miniTitle , .abt1-h h1, .abt2-h  {
         font-size: 20px !important;
     }
     /* .bv {
@@ -444,14 +446,15 @@
   }
  
   @media (max-width: 320px) { 
-    * , .stackk, .satckk , #tabbtn , .stack-p , .t-num  {
+    * , .stackk, .satckk , #tabbtn , .stack-p , .t-num  , .abt1-h h2 , 
+    .abtp {
         font-size: 13px;
     }
     .cont h2, .contt h2 , .cont2 h2 , .s-head  , 
-    .tabs .btn1 .nav-link , .sectionTitle , #tabbtn {
+    .tabs .btn1 .nav-link , .sectionTitle , #tabbtn , .abth {
         font-size: 15px !important;
     }
-    .cont h1, .contt h1 , .cont2 h1 , .num , .miniTitle {
+    .cont h1, .contt h1 , .cont2 h1 , .num , .miniTitle , .abt1-h h1, .abt2-h {
         font-size: 20px !important;
     }
     .bv {
