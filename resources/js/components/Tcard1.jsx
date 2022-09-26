@@ -3,6 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Himage3 from "./Images/webd.jpg";
 import '../../css/cardsu.css';
 import React from 'react';
+import Emilia from './Images/emilia.jpg';
 
 
 var sectionStyle = {
@@ -15,13 +16,16 @@ var sectionStyle = {
 
 function TCard1() {
   return (
-    <Card className = "card" style={sectionStyle}>
+    <Card className = "card" >
    
       <Card.Body className = "card-content">
+      <div class="shadow-effect">
+                <img class="img-circle" src={Emilia} />
+                <p>{description}</p>
+            </div>
         <Card.Title className = "card-title">Website Development</Card.Title>
         <Card.Text className = "card-body">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        
         </Card.Text>
         {/* <Button variant="primary">Go somewhere</Button> */}
       </Card.Body>
