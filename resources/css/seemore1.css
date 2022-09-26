@@ -515,7 +515,8 @@ width: 100%;
 
 .abtt {
     background-color: #0303320f;
-    border: 7px double #32031daa
+    border: 7px double #32031daa;
+    background-image: linear-gradient(#95b9f4c9,#022a6b);
 }
 
 .chead {
