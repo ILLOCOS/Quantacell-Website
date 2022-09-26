@@ -13,8 +13,8 @@
         rel="stylesheet"
       />
       
-      <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-      <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+      <link rel="stylesheet" href="../../css/owl.carousel.min.css">
+      <link rel="stylesheet" href="resources\css\owl.theme.default.min.css">
           <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
           <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
           <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
