@@ -42,13 +42,23 @@
 #nav-list a:hover {
     text-transform: uppercase;
     /* background-color: #16415bce; */
-    background-color: #008b8b7e;
+    /* background-color: #008b8b7e; */
+    color: rgba(5, 223, 223, 0.823);
     border-radius: 3px;
     padding: 10px;
     font-weight: 500;
 }
 
 #nav-list a:active {
+    text-transform: uppercase;
+    background-color: #16415bce;
+    border-radius: 3px;
+    padding: 10px;
+    font-weight: 500;
+    border-bottom: 5px solid #5997bd;
+}
+
+#nav-list .active a {
     text-transform: uppercase;
     background-color: #16415bce;
     border-radius: 3px;
