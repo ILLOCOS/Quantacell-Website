@@ -1,3 +1,4 @@
+import '../../css/footer.css'
 import React from 'react';
 import {
   MDBFooter,
@@ -9,13 +10,12 @@ import {
   MDBBtn
 } from 'mdb-react-ui-kit';
 
-//style
-import '../../css/footer.css'
 import Container from 'react-bootstrap/esm/Container';
 // import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-export default function Footer() {
+
+export default function footer() {
   return (
     <MDBFooter className='footer_container text-center' color='white'>
       <MDBContainer className='p-4'>
@@ -194,12 +194,12 @@ export default function Footer() {
               <ul className='list-unstyled mb-0'>
                 <li>
                   <a href='#!' className='text-white'>
-                   Privacy Policy
+                   Careers
                   </a>
                 </li>
                 <li>
                   <a href='#!' className='text-white'>
-                  Fees and Charges
+                  Privacy Policy
                   </a>
                 </li>
                 <li>
@@ -225,7 +225,7 @@ export default function Footer() {
         <a className='text-white' href='index.html'>
         <span> QuantaCell.com by</span>
         </a>
-        <span> Audax, Ebenezer, Mark Nixon, and Princess</span>
+        <span> AENP Co.</span>
       </div>
     </MDBFooter>
   );

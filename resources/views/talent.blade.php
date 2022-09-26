@@ -4,7 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <link rel="icon" href="./favicon.png" type="image/png" />
+        <title>QuantaCell</title>
 
         <!-- Fonts -->
         <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet" />
@@ -24,6 +25,7 @@
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
         crossorigin="anonymous"
       />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
        @viteReactRefresh
        @vite([ 'resources/js/talent.jsx'])
      
