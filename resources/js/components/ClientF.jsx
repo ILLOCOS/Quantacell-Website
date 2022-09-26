@@ -118,9 +118,9 @@ const AppClient = () => {
         </Container>
         
     </div>
-    <div className='cont3'>
-       {/* <TestiMonials></TestiMonials> */}
-    </div>
+    {/* <div className='cont3'>
+       <TestiMonials></TestiMonials> 
+    </div>*/}
     </div>
 
         </div>
