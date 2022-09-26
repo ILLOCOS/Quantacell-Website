@@ -186,7 +186,7 @@
     z-index: -2;
     justify-content: center;
     align-items: center;
-   margin-top: -100px;
+    margin-top: -150px !important;
 
 }
 
@@ -198,10 +198,12 @@
 .contt {
     border: 7px double rgb(230, 227, 227);
     margin-top: -50px;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 15px;
     border-radius: 50px;
     z-index: -99;
+    margin-top: -250px !important;
+    background-color: white;
 }
 
 .cont h1 , .contt h1  {
@@ -368,13 +370,13 @@
         font-size: 14px;
     }
     .bv {
-        margin-top: -10px;
+        margin-top: -10px ;
     }
-    .tabs {
-        margin-top: -150px;
+    .contt {
+        margin-top: -220px ;
     }
     #tabbtn {
-        margin-left: 20% ;
+        margin-left: 30% ;
      }
   }
   
@@ -383,15 +385,15 @@
         font-size: 14px;
     }
     .bv {
-        margin-top: 0px;
+        margin-top: 0px ;
     }
-    .tabs {
+    .contt {
         margin-top: -200px;
     }
   }
   
 
-  @media (max-width: 720px) { 
+  @media  (max-width: 720px) { 
     * , .stackk, .satckk , #tabbtn , .stack-p , .t-num , .abt1-h h2 , 
     .abtp {
         font-size: 14px !important;
@@ -404,7 +406,10 @@
         font-size: 20px !important;
     }
     .bv {
-        margin-top: -10px;
+        margin-top: -60px !important ;
+    }
+    .contt { 
+        margin-top: -150px !important;
     }
     #tabbtn {
        margin-left: 50px !important;
@@ -424,11 +429,11 @@
     .cont h1, .contt h1 , .cont2 h1 , .num , .miniTitle , .abt1-h h1, .abt2-h  {
         font-size: 20px !important;
     }
-    /* .bv {
-        margin-top: 40px;
-    } */
-    .tabs {
-        margin-top: -60px;
+    .bv {
+        margin-top: -20px !important;
+    }
+    .contt {
+        margin-top: -120px !important;
     }
     #tabbtn {
        margin-left: 10px !important;
@@ -455,13 +460,13 @@
         font-size: 15px !important;
     }
     .cont h1, .contt h1 , .cont2 h1 , .num , .miniTitle , .abt1-h h1, .abt2-h {
-        font-size: 20px !important;
+        font-size: 18px !important;
     }
     .bv {
         margin-top: 0px;
     }
-    .tabs {
-        margin-top: -40px;
+    .contt {
+        margin-top: -30px;
     }
     #tabbtn {
        margin-left: 0px !important;
