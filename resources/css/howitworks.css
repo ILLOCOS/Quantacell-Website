@@ -12,6 +12,7 @@
 .h-title  h3 {
     font-size: 30px;
     font-weight: 600;
+    text-shadow: 3px 3px 3px #0a0a0a85;
     font-family: 'Montserrat', sans-serif;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid #1c1301; /* The typwriter cursor */
