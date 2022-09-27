@@ -13,7 +13,8 @@ import wc5 from '../components/Images/wcc5.gif';
 // import TestiMonials from './TestiMonials';
 import Button from 'react-bootstrap/Button';
 import bv from '../components/Images/bv2.mp4';
-import bt from '../components/Images/bt.mp4'
+import bt from '../components/Images/bt.mp4';
+import Responsive from './Success';
 
 const Talent = () => {
     return(
@@ -133,9 +134,9 @@ const Talent = () => {
         
     </div>
 
-    {/* <div className='cont3'>
-       <TestiMonials></TestiMonials> 
-    </div> */}
+    <div className='cont3'>
+       <Responsive></Responsive> 
+    </div>
   </div>
 
         </div>

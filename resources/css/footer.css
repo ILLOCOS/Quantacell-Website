@@ -57,6 +57,6 @@
 
 .text-white a:hover {
   color: #224fe6d2 ;
-  /* text-transform: uppercase; */
   padding-left: 10px;
+   /* text-transform: uppercase; */
 }

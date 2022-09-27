@@ -1,9 +1,9 @@
 // import Container from 'react-bootstrap/Container';
 // import Col from 'react-bootstrap/Col';
 // import Row from 'react-bootstrap/Row';
-import {TCard1} from './cardsu';
-import {TCard2} from './cardsu2';
-import {TCard3} from './cardsu3';
+import {SCard1} from './cardsu';
+import {SCard2} from './cardsu2';
+import {SCard3} from './cardsu3';
 import {TCard4 }from './cardsu4';
 import {TCard5} from './cardsu5';
 import {TCard6} from './cardsu6';
@@ -45,20 +45,20 @@ function SamplePrevArrow(props) {
   );
 }
 
-export default class TestResponsive extends Component {
+export default class Responsive extends Component {
 render() {
 
       var settings = {
       dots: false,
       infinite: true,
-      slidesToShow: 4,
-      slidesToScroll: 4,
+      slidesToShow: 2,
+      slidesToScroll: 2,
       // autoplay: true,
       speed: 1000,
       // autoplaySpeed: 2000,
       // cssEase: "linear",
       centerMode: true,
-      gap:5,
+      gap:0,
     
       nextArrow: <SampleNextArrow />,
       prevArrow: <SamplePrevArrow />,
@@ -92,17 +92,17 @@ render() {
       return (
         <div className="Div" style ={{ margin:'1rem auto 0'}}>
           <div className="Services">
-          <h2> TESTIMONIALS</h2>
+          <h2> SUCCESS STORIES</h2>
           </div>
           <Slider className="SSlider" {...settings} style ={{ display: 'flex',justifyContent: 'center'}}>
-          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><TCard1 /></div>
-          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><TCard2 /></div>
-          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><TCard3 /></div>
+          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><SCard1 /></div>
+          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><SCard2 /></div>
+          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><SCard3 /></div>
           <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><TCard4 /></div>
-          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><TCard5 /></div>
+          {/* <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><TCard5 /></div>
           <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><TCard6 /></div>
           <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><TCard7 /></div>
-          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><TCard9 /></div>
+          <div style ={{ marginTop:'1rem', marginRight:'auto', marginBottom:' 0'}} className="Div"><TCard9 /></div> */}
           </Slider>
           </div>
       );
