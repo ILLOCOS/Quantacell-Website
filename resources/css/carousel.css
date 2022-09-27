@@ -42,3 +42,14 @@
     font-weight: 500;
   }
 
+h1 , p {
+  color: #030332;
+  text-shadow: 3px 5px 10px  #ffffffe0;
+  font-weight: 800
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 700
+}
+
