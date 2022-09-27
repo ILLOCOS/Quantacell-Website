@@ -94,7 +94,7 @@
                                 
                             </div>
                           </div> --}}
-                          <div class="form-group row">
+                          {{-- <div class="form-group row">
                             <label for="user" class="col-md-4 col-form-label text-md-right">Role</label>
                             <div class="col-md-6">
                                 <input type="text" id="user" class="form-control" name="user" required autofocus>
@@ -102,7 +102,7 @@
                                     <span class="text-danger">{{ $errors->first('user') }}</span>
                                 @endif
                             </div>
-                        </div>
+                        </div> --}}
 
                           
                           <div class="form-group row">
