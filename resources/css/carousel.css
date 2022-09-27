@@ -42,3 +42,14 @@
     font-weight: 500;
   }
 
+.carh1 , .carp {
+  color: #030332;
+  text-shadow: 3px 5px 10px  #ffffffe0;
+  font-weight: 800
+}
+
+.carh1 {
+  text-transform: uppercase;
+  font-weight: 700
+}
+
