@@ -72,9 +72,7 @@ export default function footer() {
 
         <section className='mb-4'>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum repellat quaerat
-            voluptatibus placeat nam, commodi optio pariatur est quia magnam eum harum corrupti dicta, aliquam
-            sequi voluptate quas.
+            By clicking the button above, you agree to our Terms of Service and Privacy Policy of our website.
           </p>
         </section>
 <hr/>
@@ -97,7 +95,7 @@ export default function footer() {
               </Col>
               <Col lg='4' md='5' className='mb-4 mb-md-0' id='col2'>
               <a href='#!' className='text-white'>
-                  <i class="fa fa-map-marker"></i>  8th Avenue cor. 35th Street, North Bonifacio Triangle,  Bonifacio Global City, Taguig City 1635
+                  <i class="fa fa-map-marker"></i>  8th Avenue cor., 35th Street, North Bonifacio Triangle,  Bonifacio Global City, Taguig City 1635
                   </a>
               </Col>
             </Row>
