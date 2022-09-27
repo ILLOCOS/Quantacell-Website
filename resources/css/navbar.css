@@ -47,6 +47,7 @@
     border-radius: 3px;
     padding: 10px;
     font-weight: 500;
+    border-bottom: 4px solid #5997bd ;
 }
 
 #nav-list a:active {
