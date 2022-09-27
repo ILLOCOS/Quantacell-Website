@@ -48,3 +48,22 @@
     right: 3% !important;
     z-index: 1;
   }
+
+  @media  (max-width: 720px)  {
+    .Services h2{
+        font-size: 20px !important;
+    }
+  }
+
+  @media (max-width: 425px) { 
+    .Services h2{
+        font-size: 20px !important;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .Services h2{
+        font-size: 18px !important;
+    }
+  }
+
