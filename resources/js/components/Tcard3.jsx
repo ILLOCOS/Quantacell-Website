@@ -1,6 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import Himage3 from "./Images/cpic3.jpg";
+import Himage3 from "./Images/webd.jpg";
 import '../../css/cardsu.css';
 import React from 'react';
 
@@ -10,29 +10,15 @@ var sectionStyle = {
   width: '18rem',
   backgroundSize: 'cover',
   backgroundPosition:'center',
+  
 }
 
-function Card10() {
+function TCard3() {
   return (
     <Card className = "card" style={sectionStyle}>
    
       <Card.Body className = "card-content">
-        <Card.Title className = "card-title">Lifestyle</Card.Title>
-        <Card.Text className = "card-body">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        {/* <Button variant="primary">Go somewhere</Button> */}
-      </Card.Body>
-    </Card>
-  );
-}
-function TCard10() {
-  return (
-    <Card className = "card" style={sectionStyle}>
-   
-      <Card.Body className = "card-content">
-        <Card.Title className = "card-title">Lifestyle</Card.Title>
+        <Card.Title className = "card-title">Website Development</Card.Title>
         <Card.Text className = "card-body">
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
@@ -43,4 +29,4 @@ function TCard10() {
   );
 }
 
-export {Card10, TCard10};
+export default TCard3;

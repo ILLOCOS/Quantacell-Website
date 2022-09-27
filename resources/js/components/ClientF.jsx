@@ -12,7 +12,8 @@ import wc2 from '../components/Images/wcc2.gif';
 import wc5 from '../components/Images/wcc5.gif';
 // import TestiMonials from './TestiMonials';
 import Button from 'react-bootstrap/Button';
-import bv from '../components/Images/bv2.mp4';;
+import bv from '../components/Images/bv2.mp4';
+import Responsive from './Testimony';
 
 const AppClient = () => {
     return(
@@ -118,9 +119,9 @@ const AppClient = () => {
         </Container>
         
     </div>
-    {/* <div className='cont3'>
-       <TestiMonials></TestiMonials> 
-    </div>*/}
+    <div className='cont3'>
+       <Responsive></Responsive> 
+    </div>
     </div>
 
         </div>

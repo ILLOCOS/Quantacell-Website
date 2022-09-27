@@ -67,12 +67,12 @@
                               </div>
                           </div>
   
-                          <div class="form-group row">
+                          {{-- <div class="form-group row">
 
                               <div class="col-md-2  offset-md-4">
                                 <div class="checkbox">
                                     <label>
-                                        <input type="checkbox" name="remember"> Admin
+                                        <input type="checkbox" name="user"> Admin
                                     </label>
                                 </div>
                                 
@@ -80,7 +80,7 @@
                             <div class="col-md-2">
                                 <div class="checkbox">
                                     <label>
-                                        <input type="checkbox" name="remember"> Talent
+                                        <input type="checkbox" name="user"> Talent
                                     </label>
                                 </div>
                                 
@@ -88,12 +88,21 @@
                             <div class="col-md-2">
                                 <div class="checkbox">
                                     <label>
-                                        <input type="checkbox" name="remember"> Client
+                                        <input type="checkbox" name="user"> Client
                                     </label>
                                 </div>
                                 
                             </div>
-                          </div>
+                          </div> --}}
+                          <div class="form-group row">
+                            <label for="user" class="col-md-4 col-form-label text-md-right">Role</label>
+                            <div class="col-md-6">
+                                <input type="text" id="user" class="form-control" name="user" required autofocus>
+                                @if ($errors->has('user'))
+                                    <span class="text-danger">{{ $errors->first('user') }}</span>
+                                @endif
+                            </div>
+                        </div>
 
                           
                           <div class="form-group row">

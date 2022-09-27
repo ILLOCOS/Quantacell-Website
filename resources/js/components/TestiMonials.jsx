@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import TestiMonialsDetails from './TestiMonialsDetails'
+import TestiMonialsDetails from './TestiMonialsDetails';
 import OwlCarousel from 'react-owl-carousel';
-import 'owl.carousel/dist/assets/owl.carousel.css';
-import 'owl.carousel/dist/assets/owl.theme.default.css';
+import '../../css/owl.carousel.css';
+import '../../css/owl.theme.default.css';
 import userPic from './Images/crcc.jpg';
 import '../../css/TestiMonials.css';
 import Emilia from './Images/emilia.jpg';

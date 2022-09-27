@@ -50,7 +50,7 @@
         }
         .my-form
         {
-            margin-top:5rem;
+            margin-top:7rem;
             padding-top: 1.5rem;
             padding-bottom: 1.5rem;
         }
@@ -69,6 +69,11 @@
         {
             margin-left: 0;
             margin-right: 0;
+        }
+        .card
+        {
+            margin-top:5rem;
+            margin-bottom:5rem;
         }
         
     </style>
