@@ -13,7 +13,7 @@ import wc5 from '../components/Images/wcc5.gif';
 // import TestiMonials from './TestiMonials';
 import Button from 'react-bootstrap/Button';
 import bv from '../components/Images/bv2.mp4';
-import Responsive from './Testimony';
+import TestResponsive from './Testimony';
 
 const AppClient = () => {
     return(
@@ -120,7 +120,7 @@ const AppClient = () => {
         
     </div>
     <div className='cont3'>
-       <Responsive></Responsive> 
+       <TestResponsive></TestResponsive> 
     </div>
     </div>
 

@@ -25,6 +25,19 @@
 
 }
 
+.card3{
+    color: rgb(195, 196, 200);
+    padding: 1rem 0rem 0rem 0rem;
+    max-width: 45ch;
+    /* border-radius: 0.5rem; */
+    overflow:hidden;
+    transition:transform 500ms ease;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+    height: 100ch;
+    margin-right: 10rem;
+
+}
+
 
 .card:hover,.card:focus-within{
 
@@ -54,6 +67,13 @@
     height:100%;
     text-align:center;
 }
+.card-content3{
+    --padding: 0rem;
+    padding: var(--padding);
+    background:rgb(13, 9, 39);
+    height:100%;
+    text-align:center;
+}
 
 .card-title{
     position: relative;
@@ -71,6 +91,17 @@
     width: max-content;
     font-size: 15px;
     margin-left:2rem;
+    text-shadow: 2px 2px 2px #000000;
+    text-transform:uppercase;
+    color:white
+}
+.card-title3{
+    position: relative;
+    text-align:center;
+    width: max-content;
+    font-size: 15px;
+    margin-left:8rem;
+    padding-top:1rem;
     text-shadow: 2px 2px 2px #000000;
     text-transform:uppercase;
     color:white
@@ -113,6 +144,12 @@
     color:rgb(255 255 255/ 0.8);
     font-size: 12px;
     padding: 0rem 2rem 2rem 2rem;
+}
+.card-body3{
+    color:rgb(255 255 255/ 0.8);
+    font-size: 12px;
+    padding: 2rem 2rem 2rem 2rem;
+    
 }
 
 
