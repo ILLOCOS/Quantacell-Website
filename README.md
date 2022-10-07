@@ -14,7 +14,7 @@
 4. Go to project root folder.Open git bash or terminal and run  composer install       
 5. Run php artisan key:generate in the terminal    
 6. Run php artisan migrate  
-7. npm install
+7. npm install or npm install --force
 8. npm run dev
 9. php artisan serve
 
